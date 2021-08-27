@@ -34,14 +34,6 @@ plugins:
   - jekyll-feed
   - jekyll-pandoc
 
-markdown: Pandoc
-pandoc:
-  extentions:
-    - footnotes
-    - normalize
-    - smart
-    - mathjax
-
 collections:
   courses:
     output: true

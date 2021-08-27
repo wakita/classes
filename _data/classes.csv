@@ -1,0 +1,6 @@
+,ID,Name,UnitMajor,Instructors,Components,Room,Day/Period,Group,Number,AcademicYear,Syllabus,LanguageUsed,Credits,OfferedQuarter,T2Schola
+0,cs1,コンピュータサイエンス第一,理工系教養科目,脇田　建,講義 / 演習,Zoom,月3-4,2a(CS1),LAS.I121,2021年度,http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=7&KamokuCD=110800&KougiCD=202107202&Nendo=2021&vid=03,日本語,1,3Q,
+1,prg1,プログラミング第一,数理・計算科学系,脇田 建・叢 悠悠,講義 / 演習,W833,月7-8・火5-6・金5-6,,MCS.T224,2021年度,http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=4&GakkaCD=342200&KeiCD=22&KougiCD=202102384&Nendo=2021&vid=03,日本語,3,3Q,
+2,prj,研究プロジェクト,数理・計算科学コース,脇田　建,実習,Zoom,火7-8,,MCS.Z381-02,2021年度,,日本語,2,34Q,
+3,cs2,コンピュータサイエンス第二,理工系教養科目,脇田　建,講義 / 演習,Zoom,月3-4,2a(CS2),LAS.I122,2021年度,http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=7&KamokuCD=110800&KougiCD=202107214&Nendo=2021&vid=03,日本語,1,4Q,
+4,vis,情報可視化,数理・計算科学コース,脇田　建,講義,Zoom,火3-4・金3-4,,MCS.T412,2021年度,http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=4&GakkaCD=342222&KeiCD=22&course=22&KamokuCD=342222&KougiCD=202121757&Nendo=2021&vid=03,日本語,2,4Q,

@@ -1,8 +1,6 @@
 ---
-layout: home
 title: 'コンピュータサイエンス第二'
-permalink: /cs2/
-collection: courses
+class_id: 'cs2'
 ---
 
 {% include classinfo.md %}

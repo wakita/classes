@@ -1,2 +1,4 @@
 navigation_pages:
-  - index.md
+  - Readme.md
+  - y21/index.md
+  - years/y22/index.md

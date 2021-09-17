@@ -1,0 +1,383 @@
+{
+  "2021": {
+    "classes": [
+      {
+        "ID": "cs1",
+        "Name": "コンピュータサイエンス第一",
+        "UnitMajor": "理工系教養科目",
+        "Instructors": "脇田　建",
+        "Components": "講義 / 演習",
+        "Room": "Zoom",
+        "Day/Period": "月3-4",
+        "Group": "2a(CS1)",
+        "Number": "LAS.I121",
+        "AcademicYear": "2021年度",
+        "Syllabus": "http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=7&KamokuCD=110800&KougiCD=202107202&Nendo=2021&vid=03",
+        "LanguageUsed": "日本語",
+        "Credits": 1,
+        "OfferedQuarter": "3Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "prg1",
+        "Name": "プログラミング第一",
+        "UnitMajor": "数理・計算科学系",
+        "Instructors": "脇田 建・叢 悠悠",
+        "Components": "講義 / 演習",
+        "Room": "W833",
+        "Day/Period": "月7-8・火5-6・金5-6",
+        "Group": "",
+        "Number": "MCS.T224",
+        "AcademicYear": "2021年度",
+        "Syllabus": "http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=4&GakkaCD=342200&KeiCD=22&KougiCD=202102384&Nendo=2021&vid=03",
+        "LanguageUsed": "日本語",
+        "Credits": 3,
+        "OfferedQuarter": "3Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "prj",
+        "Name": "研究プロジェクト",
+        "UnitMajor": "数理・計算科学コース",
+        "Instructors": "脇田　建",
+        "Components": "実習",
+        "Room": "Zoom",
+        "Day/Period": "火7-8",
+        "Group": "",
+        "Number": "MCS.Z381-02",
+        "AcademicYear": "2021年度",
+        "Syllabus": "",
+        "LanguageUsed": "日本語",
+        "Credits": 2,
+        "OfferedQuarter": "34Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "cs2",
+        "Name": "コンピュータサイエンス第二",
+        "UnitMajor": "理工系教養科目",
+        "Instructors": "脇田　建",
+        "Components": "講義 / 演習",
+        "Room": "Zoom",
+        "Day/Period": "月3-4",
+        "Group": "2a(CS2)",
+        "Number": "LAS.I122",
+        "AcademicYear": "2021年度",
+        "Syllabus": "http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=7&KamokuCD=110800&KougiCD=202107214&Nendo=2021&vid=03",
+        "LanguageUsed": "日本語",
+        "Credits": 1,
+        "OfferedQuarter": "4Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "vis",
+        "Name": "情報可視化",
+        "UnitMajor": "数理・計算科学コース",
+        "Instructors": "脇田　建",
+        "Components": "講義",
+        "Room": "Zoom",
+        "Day/Period": "火3-4・金3-4",
+        "Group": "",
+        "Number": "MCS.T412",
+        "AcademicYear": "2021年度",
+        "Syllabus": "http://www.ocw.titech.ac.jp/index.php?module=General&action=T0300&GakubuCD=4&GakkaCD=342222&KeiCD=22&course=22&KamokuCD=342222&KougiCD=202121757&Nendo=2021&vid=03",
+        "LanguageUsed": "日本語",
+        "Credits": 2,
+        "OfferedQuarter": "4Q",
+        "T2Schola": ""
+      }
+    ],
+    "cs1": [
+      {
+        "曜日時限": "月曜1, 2",
+        "クラス名": "1a(CS1)",
+        "担当教員": "新山 祐介",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "月曜1, 2",
+        "クラス名": "1b(CS1)",
+        "担当教員": "Defago Xavier",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "月曜3, 4",
+        "クラス名": "2a(CS1)",
+        "担当教員": "脇田 建",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "月曜3, 4",
+        "クラス名": "2b(CS1)",
+        "担当教員": "Defago Xavier",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "月曜3, 4",
+        "クラス名": "EN(CS1)",
+        "担当教員": "熊澤 努",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "水曜1, 2",
+        "クラス名": "3a(CS1)",
+        "担当教員": "仲道 嘉夫",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "水曜1, 2",
+        "クラス名": "3b(CS1)",
+        "担当教員": "Bonnet Francois P.A.",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "水曜3, 4",
+        "クラス名": "4a(CS1)",
+        "担当教員": "南出 靖彦",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "水曜3, 4",
+        "クラス名": "4b(CS1)",
+        "担当教員": "永藤 直行",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "木曜1, 2",
+        "クラス名": "5a(CS1)",
+        "担当教員": "河野 友亮",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "木曜1, 2",
+        "クラス名": "5b(CS1)",
+        "担当教員": "伊知地 宏",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "木曜3, 4",
+        "クラス名": "6a(CS1)",
+        "担当教員": "大村 英史",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "木曜3, 4",
+        "クラス名": "6b(CS1)",
+        "担当教員": "伊知地 宏",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      }
+    ],
+    "cs2": [
+      {
+        "曜日時限": "月曜1, 2",
+        "クラス名": "1a(CS1)",
+        "担当教員": "新山 祐介",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "月曜1, 2",
+        "クラス名": "1b(CS1)",
+        "担当教員": "Defago Xavier",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "月曜3, 4",
+        "クラス名": "2a(CS1)",
+        "担当教員": "脇田 建",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "月曜3, 4",
+        "クラス名": "2b(CS1)",
+        "担当教員": "Defago Xavier",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "月曜3, 4",
+        "クラス名": "EN(CS1)",
+        "担当教員": "熊澤 努",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "水曜1, 2",
+        "クラス名": "3a(CS1)",
+        "担当教員": "仲道 嘉夫",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "水曜1, 2",
+        "クラス名": "3b(CS1)",
+        "担当教員": "Bonnet Francois P.A.",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "水曜3, 4",
+        "クラス名": "4a(CS1)",
+        "担当教員": "南出 靖彦",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "水曜3, 4",
+        "クラス名": "4b(CS1)",
+        "担当教員": "永藤 直行",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "木曜1, 2",
+        "クラス名": "5a(CS1)",
+        "担当教員": "河野 友亮",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "木曜1, 2",
+        "クラス名": "5b(CS1)",
+        "担当教員": "伊知地 宏",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "木曜3, 4",
+        "クラス名": "6a(CS1)",
+        "担当教員": "大村 英史",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      },
+      {
+        "曜日時限": "木曜3, 4",
+        "クラス名": "6b(CS1)",
+        "担当教員": "伊知地 宏",
+        "クラス別ホームページ": "",
+        "学生の所属ユニット": ""
+      }
+    ]
+  },
+  "2022": {
+    "classes": [
+      {
+        "ID": "py",
+        "Name": "はじめてのPython",
+        "UnitMajor": "導入科目：情報",
+        "Instructors": "脇田　建",
+        "Components": "",
+        "Room": "",
+        "Day/Period": "7/2, 7/9",
+        "Group": "",
+        "Number": "",
+        "AcademicYear": "2022年度",
+        "Syllabus": "",
+        "LanguageUsed": "日本語",
+        "Credits": "",
+        "OfferedQuarter": "2Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "cs1",
+        "Name": "コンピュータサイエンス第一",
+        "UnitMajor": "理工系教養科目",
+        "Instructors": "脇田　建",
+        "Components": "講義 / 演習",
+        "Room": "Zoom",
+        "Day/Period": "月3-4",
+        "Group": "2a(CS1)",
+        "Number": "",
+        "AcademicYear": "2022年度",
+        "Syllabus": "",
+        "LanguageUsed": "日本語",
+        "Credits": 1,
+        "OfferedQuarter": "3Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "prg1",
+        "Name": "プログラミング第一",
+        "UnitMajor": "数理・計算科学系",
+        "Instructors": "脇田 建・叢 悠悠",
+        "Components": "講義 / 演習",
+        "Room": "W833",
+        "Day/Period": "月7-8・火5-6・金5-6",
+        "Group": "",
+        "Number": "",
+        "AcademicYear": "2022年度",
+        "Syllabus": "",
+        "LanguageUsed": "日本語",
+        "Credits": 3,
+        "OfferedQuarter": "3Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "prj",
+        "Name": "研究プロジェクト",
+        "UnitMajor": "数理・計算科学コース",
+        "Instructors": "脇田　建",
+        "Components": "実習",
+        "Room": "Zoom",
+        "Day/Period": "火7-8",
+        "Group": "",
+        "Number": "",
+        "AcademicYear": "2022年度",
+        "Syllabus": "",
+        "LanguageUsed": "日本語",
+        "Credits": 2,
+        "OfferedQuarter": "34Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "cs2",
+        "Name": "コンピュータサイエンス第二",
+        "UnitMajor": "理工系教養科目",
+        "Instructors": "脇田　建",
+        "Components": "講義 / 演習",
+        "Room": "Zoom",
+        "Day/Period": "月3-4",
+        "Group": "2a(CS2)",
+        "Number": "",
+        "AcademicYear": "2022年度",
+        "Syllabus": "",
+        "LanguageUsed": "日本語",
+        "Credits": 1,
+        "OfferedQuarter": "4Q",
+        "T2Schola": ""
+      },
+      {
+        "ID": "vis",
+        "Name": "情報可視化",
+        "UnitMajor": "数理・計算科学コース",
+        "Instructors": "脇田　建",
+        "Components": "講義",
+        "Room": "Zoom",
+        "Day/Period": "火3-4・金3-4",
+        "Group": "",
+        "Number": "",
+        "AcademicYear": "2022年度",
+        "Syllabus": "",
+        "LanguageUsed": "英語",
+        "Credits": 2,
+        "OfferedQuarter": "4Q",
+        "T2Schola": ""
+      }
+    ]
+  }
+}

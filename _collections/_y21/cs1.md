@@ -1,8 +1,6 @@
 ---
-layout: home
 title: 'コンピュータサイエンス第一'
-permalink: /cs1/
-collection: courses
+class_id: 'cs1'
 ---
 
 {% include classinfo.md %}

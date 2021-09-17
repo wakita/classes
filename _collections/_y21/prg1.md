@@ -1,8 +1,6 @@
 ---
-layout: home
 title: 'プログラミング第一'
-pcs1ermalink: /prg1/
-collection: courses
+class_id: 'prg1'
 ---
 
 {% include classinfo.md %}

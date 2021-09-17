@@ -1,0 +1,29 @@
+#!/Users/wakita/.venvs/web/bin/python3
+
+import json
+from pathlib import Path
+
+import gspread
+import pandas as pd
+
+ROOT = Path(__file__).parent.parent
+GSHEETS = {
+  '2021': '1t2kBsojDQkdy40z7RhVIhx3rhS9t86GCsIPEiT2MieY',
+  '2022': '1AJ01S_YLdHDagNTr20DLljJswmwlNLyaDS8AyIsHOVs' }
+
+def download():
+  gc = gspread.service_account()
+  years = {}
+  for year, sheet_id in GSHEETS.items():
+    book = gc.open_by_key(sheet_id)
+    tables = {}
+    for sheet in book.worksheets():
+      tables[sheet.title] = json.loads(pd.DataFrame(sheet.get_all_records()).to_json(orient='records', force_ascii=False))
+    years[year] = tables
+  with open(ROOT.joinpath('_data', 'classes.json'), 'w') as classes_json:
+    json.dump(years, classes_json, ensure_ascii=False, indent=2)
+
+if __name__ == '__main__':
+  download()
+
+# vi: ft=python sw=2

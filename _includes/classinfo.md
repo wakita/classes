@@ -1,26 +1,39 @@
-{% for course in site.data.classes %}
-{% if course.Name == page.title %}
-# {{ course.Number }}
+<style>
+.entry-title {
+background-color: #ddd;
+}
+</style>
 
-{{ course.AcademicYear }}年度{{ course.Quarter}} {{ course.Name }}: {{ course.Number }}
-
-担当教員
-: {{ course.Instructors }}
-
-授業の形式
-: {{ course.Components }} - {{ course.Credits }}単位; {{ course.Room }}
-
-使用言語
-: {{ course.LanguageUsed }}
-
-{% if course.T2Schola %}
-T2Schola
-: [T2Scholaへのリンク]({{ course.T2Schola }})
+{% assign class_id = "all" %}
+{% if page.class_id %}
+  {% assign class_id = page.class_id %}
 {% endif %}
 
-{% if course.Syllabus %}
+{% assign classes = site.data.classes[page.year].classes %}
+
+{% for class in site.data.classes[page.year].classes %}
+{% if class_id == "all" or class.ID == class_id %}
+
+# {{ class.Number }}
+{{ page.year }}年度{{ class.Quarter}} {{ class.Name }}
+
+担当教員
+: {{ class.Instructors }}
+
+授業の形式
+: {{ class.Components }} - {{ class.Credits }}単位; {{ class.Room }}
+
+使用言語
+: {{ class.LanguageUsed }}
+
+{% if class.T2Schola != "" %}
+T2Schola
+: [T2Scholaへのリンク]({{ class.T2Schola }})
+{% endif %}
+
+{% if class.Syllabus != "" %}
 シラバス
-: <a href="{{ course.Syllabus }}" target="_blank">シラバスへのリンク</a>
+: <a href="{{ class.Syllabus }}" target="_blank">シラバスへのリンク</a>
 {% endif %}
 
 {% endif %}

@@ -1,4 +1,0 @@
-#!/bin/sh
-
-#bundle exec jekyll build --incremental $*
-bundle exec jekyll build --destination $HOME/Sites/classes --incremental --watch $*

@@ -16,7 +16,7 @@
         "LanguageUsed": "日本語",
         "Credits": 1,
         "OfferedQuarter": "3Q",
-        "T2Schola": ""
+        "T2Schola": "https://t2schola.titech.ac.jp/course/view.php?id=13934"
       },
       {
         "ID": "prg1",
@@ -33,7 +33,7 @@
         "LanguageUsed": "日本語",
         "Credits": 3,
         "OfferedQuarter": "3Q",
-        "T2Schola": ""
+        "T2Schola": "https://t2schola.titech.ac.jp/course/view.php?id=14955"
       },
       {
         "ID": "prj",
@@ -67,7 +67,7 @@
         "LanguageUsed": "日本語",
         "Credits": 1,
         "OfferedQuarter": "4Q",
-        "T2Schola": ""
+        "T2Schola": "https://t2schola.titech.ac.jp/course/view.php?id=13947"
       },
       {
         "ID": "vis",
@@ -84,7 +84,7 @@
         "LanguageUsed": "日本語",
         "Credits": 2,
         "OfferedQuarter": "4Q",
-        "T2Schola": ""
+        "T2Schola": "https://t2schola.titech.ac.jp/course/view.php?id=14981"
       }
     ],
     "cs1": [

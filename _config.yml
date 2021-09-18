@@ -67,8 +67,8 @@ defaults:
       year: "2022"
 
 # Build settings
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
-#theme: jekyll-theme-basically-basic
+#remote_theme: "mmistakes/jekyll-theme-basically-basic"
+theme: jekyll-theme-basically-basic
 
 plugins:
   - jekyll-feed

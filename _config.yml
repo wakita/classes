@@ -28,6 +28,10 @@ baseurl: "/classes" # the subpath of your site, e.g. /blog
 url: "https://wakita.github.io/classes/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wakita
 
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 
 defaults:
   - scope:

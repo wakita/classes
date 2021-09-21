@@ -1,1 +1,1 @@
-Sitemap: https://wakita.github.io/classes//classes/sitemap.xml
+Sitemap: /classes/sitemap.xml

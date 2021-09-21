@@ -20,7 +20,7 @@ var store = [{
         "url": "/classes/y21/prg1.html"
       },{
         "title": "研究プロジェクト",
-        "excerpt":"MCS.Z381-02 2021年度 研究プロジェクト   担当教員  脇田　建  授業の形式  実習 - 2単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク","categories": ["class"],
+        "excerpt":"MCS.Z381-02 2021年度 研究プロジェクト   担当教員  脇田　建  授業の形式  実習 - 2単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク      第一ラウンド         第二ラウンド         第三ラウンド   ","categories": ["class"],
         "tags": [],
         "url": "/classes/y21/prj.html"
       },{

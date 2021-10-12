@@ -20,7 +20,7 @@ var store = [{
         "url": "/classes/y21/prg1.html"
       },{
         "title": "研究プロジェクト",
-        "excerpt":"MCS.Z381-02 2021年度 34Q 研究プロジェクト   担当教員  脇田　建  授業の形式  実習 - 2単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク      第一ラウンド         第二ラウンド         第三ラウンド   ","categories": [],
+        "excerpt":"MCS.Z381-02 2021年度 34Q 研究プロジェクト 担当教員 脇田　建 授業の形式 実習 - 2単位; Zoom 使用言語 日本語 T2Schola T2Scholaへのリンク シラバス シラバスへのリンク 第一ラウンド 第二ラウンド 第三ラウンド Python 関連の開発環境設定 Python を用いた開発では、仮想環境を作成して、そのなかで開発することが普通です。仮想環境はプロジェクトごとに作成します。以下では、研究プロジェクトの三つのラウンドに共通する仮想環境の構築方法を説明しています。 仮想環境は labproject と命名し、~/.venvs/labproject に設定してあります。Python の仮想環境は過去に複数のものがありました。pyenv, virtualenv などが知られています。これらは Python を拡張するシステムとして開発されましたが、Python 3.7 になって Python に標準的に備わった仮想システムが提供されるようになりました。これが venv です。以下では venv を用いた仮想環境を使った環境設定について説明します。 Python 3 をインストールすること。インストールされている Python のバージョンの確認は python3 --version。 macOS の場合は...","categories": [],
         "tags": [],
         "url": "/classes/y21/prj.html"
       },{

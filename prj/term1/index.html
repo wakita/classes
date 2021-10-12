@@ -183,6 +183,41 @@
   <dd><a href="/classes/y21/prj.html">ホームページ</a></dd>
 </dl>
 
+<hr />
+
+<h1 id="zheng19-sgd法の実装">Zheng+19 SGD法の実装</h1>
+
+<p>Zheng and others, “Graph Drawing by Stochastic Gradient Descent,” IEEE TVCG 25(9), pp. 2738-2748, 2019.</p>
+
+<p><a href="https://www.dropbox.com/sh/b2e2h9cb7bopoq5/AAByPIp4Uv-lztgAoXOQ627ga?dl=0">実習キット</a></p>
+
+<h2 id="ソフトウェア開発環境の設定">ソフトウェア開発環境の設定</h2>
+
+<p><a href="https://wakita.github.io/classes/y21/prj.html">研究プロジェクトのページ</a>を参照して下さい。不明な点は Slack ですぐに質問して下さい。とくに脇田は Windows 環境に疎いので、説明のとおりに動かない可能性があります。そういう場合には、すぐに知らせて下さい。</p>
+
+<h2 id="ソフトウェアの実行方法">ソフトウェアの実行方法</h2>
+
+<p>仮想環境を起動してから <code class="language-plaintext highlighter-rouge">python3 main.py</code> で動くはずです。ウェブブラウザが起動して、そこにグラフが描画されるはずです。</p>
+
+<h2 id="実習の方法">実習の方法</h2>
+
+<p>グラフの描画は <code class="language-plaintext highlighter-rouge">g/sgd.py</code> のコメント (<code class="language-plaintext highlighter-rouge"># ここに Stochastic Gradient Descent 法のアルゴリズムを実装する（脇田の実装は約20行でした）</code>) の後ろに記述して下さい。<code class="language-plaintext highlighter-rouge">sgd</code> 関数の引数 <code class="language-plaintext highlighter-rouge">G</code> と <code class="language-plaintext highlighter-rouge">D</code> がそれぞれグラフ構造と距離行列にあたります。</p>
+
+<p><code class="language-plaintext highlighter-rouge">N = G.order()</code> は頂点数です。</p>
+
+<p><code class="language-plaintext highlighter-rouge">P = np.random.rand(N, 2)</code> は二次元配列で、各頂点の初期配置を与えています。この配置では平面上の単位正方形のなかの点を無作為に設定しています。</p>
+
+<p>グラフ描画の本質は各頂点を移動してストレス関数の値を減少することです。このために二次元配列<code class="language-plaintext highlighter-rouge">P</code>のなかの各頂点の位置を変更していきます。</p>
+
+<p><code class="language-plaintext highlighter-rouge">P</code>はNumpy配列と呼ばれるデータ構造で、二次元配列を表現しています。使い方は以下のとおりです。</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">P[i]</code>: <code class="language-plaintext highlighter-rouge">i</code>番目の頂点の座標</li>
+  <li><code class="language-plaintext highlighter-rouge">P[i][0]</code>: <code class="language-plaintext highlighter-rouge">i</code>番目の頂点のx座標</li>
+  <li><code class="language-plaintext highlighter-rouge">P[i][1]</code>: <code class="language-plaintext highlighter-rouge">i</code>番目の頂点のy座標</li>
+  <li><code class="language-plaintext highlighter-rouge">P[j] - P[i]</code>: <code class="language-plaintext highlighter-rouge">i -&gt; j</code> なベクトル</li>
+</ul>
+
 
       </div>
     </article>

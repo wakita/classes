@@ -17,7 +17,7 @@
   
     <title>Day 3: プログラミング体験1: 配列、for文、文字列と文字</title>
     <meta name="description" content="担当科目（脇田 建）">
-    <link rel="canonical" href="/classes/y21/cs1/draft3.html">
+    <link rel="canonical" href="/classes/y21/cs1/day3.html">
   
 
   <script>
@@ -200,7 +200,7 @@
   </li>
 </ol>
 
-<h1 id="課題max-と-abcprint">課題:「max」 と 「abcPrint」</h1>
+<h1 id="課題-2-1-最大値を求める-と-2-2-文字列フィルター">課題: “2-1: 最大値を求める” と “2-2: 文字列フィルター”</h1>
 
 <h1 id="目次">目次</h1>
 
@@ -213,7 +213,74 @@
   </li>
 </ol>
 
-<h1 id="これまでに学んだ-python-の演算子">これまでに学んだ Python の演算子</h1>
+<hr />
+
+<h2 id="条件分岐">条件分岐</h2>
+
+<pre><code class="language-{.py}">if 条件1:
+    ブロック
+elif 条件2:
+    ブロック
+elif 条件3:
+    ブロック
+else:
+    ブロック
+</code></pre>
+
+<h2 id="繰り返し">繰り返し</h2>
+
+<pre><code class="language-{.py}"># 条件が成立している間の繰り返し
+while 条件:
+    ブロック
+
+# i = 0, 1, ..., n-1 についての繰り返し
+for i in range(n):
+    ブロック
+
+# i = m, m+1, ..., n-1 についての繰り返し
+for i in range(m, n):
+    ブロック
+
+# 配列の各要素 x の処理
+for x in 配列:
+    ブロック
+
+# 文字列の各文字 c の処理
+for c in 文字列:
+    ブロック
+</code></pre>
+
+<h2 id="文字列の操作">文字列の操作</h2>
+
+<p><strong>文字列とその長さ</strong></p>
+<pre><code class="language-{.py}">s = 'Congraturations!'
+n = len(s)
+</code></pre>
+
+<p><strong>文字列の要素の参照</strong>:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">s[0] =&gt; C</code>: 最初の文字</li>
+  <li><code class="language-plaintext highlighter-rouge">s[1] =&gt; o</code>: 二番目の文字</li>
+  <li><code class="language-plaintext highlighter-rouge">s[k]</code>: \(k\)番目の文字</li>
+  <li><code class="language-plaintext highlighter-rouge">s[-1] =&gt; !</code>: 一番右の文字</li>
+  <li><code class="language-plaintext highlighter-rouge">s[-3] =&gt; n</code>: 右から3番目の文字</li>
+</ul>
+
+<p><strong>部分文字列の参照</strong>:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">s[3:] =&gt; graturations!</code>: インデックス3以後の文字からなる文字列</li>
+  <li><code class="language-plaintext highlighter-rouge">s[3:5] =&gt; ngr</code>: インデックスが3, 4, 5 の文字からなる部分文字列</li>
+  <li><code class="language-plaintext highlighter-rouge">s[2:-2] =&gt; ngraturation</code>: 左右端から2文字を除外した部分文字列</li>
+  <li><code class="language-plaintext highlighter-rouge">s[:] == s[0:] =&gt; Congraturations!</code></li>
+</ul>
+
+<p><strong>文字列の連結</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">s1 + s2 + s3</code></li>
+</ul>
+
+<h1 id="python-の演算子">Python の演算子</h1>
 
 <table>
   <thead>
@@ -325,7 +392,6 @@
     </tr>
   </tbody>
 </table>
-
 
       </div>
     </article>

@@ -15,9 +15,9 @@
   <link rel="icon" type="image/png" href="/classes/assets/favicons/icon-192x192.png">
 
   
-    <title>はじめてのPython</title>
-    <meta name="description" content="# 2022年度 2Q はじめてのPython 担当教員 脇田　建 授業の形式 単位; 使用言語 日本語 T2Schola T2Scholaへのリンク シラバス シラバスへのリンク">
-    <link rel="canonical" href="/classes/y22/py.html">
+    <title>Day 1: 再帰的に定義された関数</title>
+    <meta name="description" content="担当科目（脇田 建）">
+    <link rel="canonical" href="/classes/y21/cs2/day1.html">
   
 
   <script>
@@ -39,7 +39,7 @@
 </head>
 
 
-  <body class="layout--page はじめてのpython">
+  <body class="layout--page day-1-再帰的に定義された関数">
 
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
@@ -148,7 +148,7 @@
 
   <div class="inner">
     <div class="intro-text">
-      <h1 id="page-title" class="intro-title">はじめてのPython
+      <h1 id="page-title" class="intro-title">Day 1: 再帰的に定義された関数
 </h1>
       
 
@@ -157,7 +157,7 @@
 
 
         <p class="entry-meta">
-          <span class="byline-item">by 脇田 建：情報理工学院 数理・計算科学系 准教授</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2021-12-06T17:58:35+09:00">December 6, 2021</time></span>
+          <span class="byline-item">by 脇田 建：情報理工学院 数理・計算科学系 准教授</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2021-12-06T00:00:00+09:00">December 6, 2021</time></span>
         </p>
       
 
@@ -173,32 +173,76 @@
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
-        <style>
-.entry-title {
-background-color: #ddd;
-}
-</style>
+        
+<ul>
+  <li><a href="https://colab.research.google.com/drive/1aNAgUwABxnBwoeOdPizBNnkPVame2jVH?usp=sharing">講義資料 (Google Colaboratory)</a></li>
+</ul>
 
-<p># 
-2022年度 2Q はじめてのPython</p>
+<hr />
 
-<dl>
-  <dt>担当教員</dt>
-  <dd>脇田　建</dd>
-  <dt>授業の形式</dt>
-  <dd>
-    <ul>
-      <li>単位;</li>
-    </ul>
-  </dd>
-  <dt>使用言語</dt>
-  <dd>日本語</dd>
-  <dt>T2Schola</dt>
-  <dd><a href="">T2Scholaへのリンク</a></dd>
-  <dt>シラバス</dt>
-  <dd><a href="" target="_blank">シラバスへのリンク</a></dd>
-</dl>
+<h1 id="今日の授業の概要">今日の授業の概要</h1>
 
+<ol>
+  <li>
+    <p>cs1の最終レポートについて</p>
+  </li>
+  <li>
+    <p>授業で用いる各種ツールについて</p>
+  </li>
+  <li>
+    <p>cs2(2a)のガイダンスについて</p>
+  </li>
+  <li>
+    <p>Python文法の確認</p>
+  </li>
+  <li>
+    <p>再帰的関数定義</p>
+  </li>
+</ol>
+
+<h1 id="今日まなんだpython">今日まなんだPython</h1>
+
+<h2 id="global-宣言"><code class="language-plaintext highlighter-rouge">global</code> 宣言</h2>
+
+<p><strong>ローカル変数</strong>：関数の仮引数と関数内で定義される変数</p>
+
+<ul>
+  <li>
+    <p>関数（またはプログラム本体）のなかでのみ有効</p>
+  </li>
+  <li>
+    <p>プログラム本体のほかの関数内に同じ名前の変数があっても、それらは別の変数として扱われる。</p>
+  </li>
+</ul>
+
+<p><strong>グローバル変数</strong>：関数の外で定義される変数</p>
+
+<ul>
+  <li>
+    <p>プログラム本体からも各関数内部からも、グローバル変数の内容を取得できる。</p>
+  </li>
+  <li>
+    <p>プログラム実行中、ずっと存在し続ける。</p>
+  </li>
+  <li>
+    <p>関数内でグローバル変数に代入する場合は、<code class="language-plaintext highlighter-rouge">global</code>宣言を用いる。</p>
+
+    <p>これをし忘れると、ローカル変数への代入と解釈される。（脇田もよく <code class="language-plaintext highlighter-rouge">global</code> 宣言をし忘れてはまります）</p>
+  </li>
+</ul>
+
+<p>以下のプログラムが <code class="language-plaintext highlighter-rouge">global b</code> 宣言の有無の違いでの振舞いの差を観察して理解してみましょう。</p>
+
+<p>~~~ {.py}
+def test(a):
+    global b
+    a = 100
+    b = 200
+    print(“test関数のなかでの(a, b)の値 =”, a, b)</p>
+
+<p>a = 1
+b = 2
+—</p>
 
       </div>
     </article>

@@ -25,7 +25,7 @@ var store = [{
         "url": "/classes/y21/prj.html"
       },{
         "title": "情報可視化",
-        "excerpt":"MCS.T412 2021年度 4Q 情報可視化   担当教員  脇田　建  授業の形式  講義 - 2単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク","categories": [],
+        "excerpt":"MCS.T412 2021年度 4Q 情報可視化   担当教員  脇田　建  授業の形式  講義 - 2単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク授業の内容       LX01: What is VIS?         LX02: What is VIS? / Introduction to Visual Analytics by an Example   ","categories": [],
         "tags": [],
         "url": "/classes/y21/vis.html"
       },{

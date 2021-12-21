@@ -15,9 +15,9 @@
   <link rel="icon" type="image/png" href="/classes/assets/favicons/icon-192x192.png">
 
   
-    <title>研究プロジェクト</title>
-    <meta name="description" content="MCS.Z381-02 2021年度 34Q 研究プロジェクト 担当教員 脇田　建 授業の形式 実習 - 2単位; Zoom 使用言語 日本語 T2Schola T2Scholaへのリンク シラバス シラバスへのリンク">
-    <link rel="canonical" href="/classes/y21/prj.html">
+    <title>Jupyter Lab 環境の構築方法</title>
+    <meta name="description" content="担当科目（脇田 建）">
+    <link rel="canonical" href="/classes/y21/vis/jupyterlab.html">
   
 
   <script>
@@ -39,7 +39,7 @@
 </head>
 
 
-  <body class="layout--page 研究プロジェクト">
+  <body class="layout--page jupyter-lab-環境の構築方法">
 
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
@@ -148,7 +148,7 @@
 
   <div class="inner">
     <div class="intro-text">
-      <h1 id="page-title" class="intro-title">研究プロジェクト
+      <h1 id="page-title" class="intro-title">Jupyter Lab 環境の構築方法
 </h1>
       
 
@@ -157,7 +157,7 @@
 
 
         <p class="entry-meta">
-          <span class="byline-item">by 脇田 建：情報理工学院 数理・計算科学系 准教授</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2021-12-21T10:09:11+09:00">December 21, 2021</time></span>
+          <span class="byline-item">by 脇田 建：情報理工学院 数理・計算科学系 准教授</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2021-12-21T00:00:00+09:00">December 21, 2021</time></span>
         </p>
       
 
@@ -173,47 +173,14 @@
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
-        <style>
-.entry-title {
-background-color: #ddd;
-}
-</style>
-
-<h1 id="mcsz381-02">MCS.Z381-02</h1>
-<p>2021年度 34Q 研究プロジェクト</p>
-
-<dl>
-  <dt>担当教員</dt>
-  <dd>脇田　建</dd>
-  <dt>授業の形式</dt>
-  <dd>実習 - 2単位; Zoom</dd>
-  <dt>使用言語</dt>
-  <dd>日本語</dd>
-  <dt>T2Schola</dt>
-  <dd><a href="">T2Scholaへのリンク</a></dd>
-  <dt>シラバス</dt>
-  <dd><a href="" target="_blank">シラバスへのリンク</a></dd>
-</dl>
-
-<ul>
-  <li>
-    <p><a href="/classes/prj/term1/">第一ラウンド</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/prj/term2/">第二ラウンド</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/prj/term3/">第三ラウンド</a></p>
-  </li>
-</ul>
-
+        
 <hr />
 
 <h1 id="python-関連の開発環境設定">Python 関連の開発環境設定</h1>
 
 <p>Python を用いた開発では、仮想環境を作成して、そのなかで開発することが普通です。仮想環境はプロジェクトごとに作成します。以下では、研究プロジェクトの三つのラウンドに共通する仮想環境の構築方法を説明しています。</p>
 
-<p>仮想環境は <code class="language-plaintext highlighter-rouge">labproject</code> と命名し、<code class="language-plaintext highlighter-rouge">~/.venvs/labproject</code> に設定してあります。Python の仮想環境は過去に複数のものがありました。<code class="language-plaintext highlighter-rouge">pyenv</code>, <code class="language-plaintext highlighter-rouge">virtualenv</code> などが知られています。これらは Python を拡張するシステムとして開発されましたが、Python 3.7 になって Python に標準的に備わった仮想システムが提供されるようになりました。これが <code class="language-plaintext highlighter-rouge">venv</code> です。以下では <code class="language-plaintext highlighter-rouge">venv</code> を用いた仮想環境を使った環境設定について説明します。</p>
+<p>仮想環境は <code class="language-plaintext highlighter-rouge">vis21</code> と命名し、<code class="language-plaintext highlighter-rouge">~/.venvs/vis21</code> に設定してあります。Python の仮想環境は過去に複数のものがありました。<code class="language-plaintext highlighter-rouge">pyenv</code>, <code class="language-plaintext highlighter-rouge">virtualenv</code> などが知られています。これらは Python を拡張するシステムとして開発されましたが、Python 3.7 になって Python に標準的に備わった仮想システムが提供されるようになりました。これが <code class="language-plaintext highlighter-rouge">venv</code> です。以下では <code class="language-plaintext highlighter-rouge">venv</code> を用いた仮想環境を使った環境設定について説明します。</p>
 
 <ol>
   <li>
@@ -222,30 +189,40 @@ background-color: #ddd;
     <p>macOS の場合は <code class="language-plaintext highlighter-rouge">brew install python3</code>。Windows の場合は <code class="language-plaintext highlighter-rouge">python.org</code> からダウンロードしてインストール。</p>
   </li>
   <li>
-    <p>Python の仮想環境 (<code class="language-plaintext highlighter-rouge">labproject</code>) の作成</p>
+    <p>Python の仮想環境 (<code class="language-plaintext highlighter-rouge">vis21</code>) の作成</p>
 
     <ul>
       <li><code class="language-plaintext highlighter-rouge">mkdir ~/.venvs</code></li>
-      <li><code class="language-plaintext highlighter-rouge">python3 -m venv ~/.venvs/labproject</code></li>
+      <li><code class="language-plaintext highlighter-rouge">python3 -m venv ~/.venvs/vis21</code></li>
     </ul>
   </li>
   <li>
-    <p>作成した仮想環境 (<code class="language-plaintext highlighter-rouge">labproject</code>) の起動</p>
+    <p>作成した仮想環境 (<code class="language-plaintext highlighter-rouge">vis21</code>) の起動</p>
 
-    <p><code class="language-plaintext highlighter-rouge">source ~/.venvs/labproject/bin/activate</code></p>
+    <p><code class="language-plaintext highlighter-rouge">source ~/.venvs/vis21/bin/activate</code></p>
   </li>
   <li>
-    <p>仮想環境 (<code class="language-plaintext highlighter-rouge">labproject</code>) への各種パッケージのインストール</p>
+    <p>仮想環境 (<code class="language-plaintext highlighter-rouge">vis21</code>) への各種パッケージのインストール</p>
 
-    <p><code class="language-plaintext highlighter-rouge">pip install --upgrade pip bokeh networkx pandas scikit-learn scipy</code></p>
+    <p><code class="language-plaintext highlighter-rouge">pip install --upgrade pip bokeh networkx jupyterlab pandas scikit-learn scipy</code></p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">pip</code>: パッケージのインストーラ</li>
+      <li><code class="language-plaintext highlighter-rouge">jupyterlab</code>: Jupyter Lab 統合開発環境</li>
+      <li><code class="language-plaintext highlighter-rouge">scipy</code>: 基本科学技術計算（行列・ベクトル演算のための <code class="language-plaintext highlighter-rouge">numpy</code> も一緒にインストールされます）</li>
+      <li><code class="language-plaintext highlighter-rouge">pandas</code>: （ご存知）データ分析</li>
+      <li><code class="language-plaintext highlighter-rouge">networkx</code>: ネットワーク構造の表現と分析アルゴリズム</li>
+      <li><code class="language-plaintext highlighter-rouge">scikit-learn</code>: 機械学習</li>
+      <li><code class="language-plaintext highlighter-rouge">bokeh</code>: データ可視化</li>
+    </ul>
   </li>
 </ol>
 
 <h1 id="python-の仮想環境の起動方法">Python の仮想環境の起動方法</h1>
 
-<p><code class="language-plaintext highlighter-rouge">source ~/.venvs/labproject/bin/activate</code></p>
+<p><code class="language-plaintext highlighter-rouge">source ~/.venvs/vis21/bin/activate</code></p>
 
-<p>これを実行すると、シェルのプロンプトに <code class="language-plaintext highlighter-rouge">(labproject)</code> が表示されるようになります。</p>
+<p>これを実行すると、シェルのプロンプトに <code class="language-plaintext highlighter-rouge">(vis21)</code> が表示されるようになります。</p>
 
 <h1 id="bokeh-documentation-への導き">Bokeh Documentation への導き</h1>
 

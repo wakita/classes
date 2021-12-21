@@ -10,7 +10,7 @@ var store = [{
         "url": "/classes/y21/cs1.html"
       },{
         "title": "コンピュータサイエンス第二",
-        "excerpt":"LAS.I122 2021年度 4Q コンピュータサイエンス第二   担当教員  脇田　建  授業の形式  講義 / 演習 - 1単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク  クラス共通情報  クラス共通情報のページ","categories": [],
+        "excerpt":"LAS.I122 2021年度 4Q コンピュータサイエンス第二   担当教員  脇田　建  授業の形式  講義 / 演習 - 1単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク  クラス共通情報  クラス共通情報のページ授業の内容   Day 1: 再帰的に定義された関数","categories": [],
         "tags": [],
         "url": "/classes/y21/cs2.html"
       },{
@@ -25,7 +25,7 @@ var store = [{
         "url": "/classes/y21/prj.html"
       },{
         "title": "情報可視化",
-        "excerpt":"MCS.T412 2021年度 4Q 情報可視化   担当教員  脇田　建  授業の形式  講義 - 2単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク","categories": [],
+        "excerpt":"MCS.T412 2021年度 4Q 情報可視化   担当教員  脇田　建  授業の形式  講義 - 2単位; Zoom  使用言語  日本語  T2Schola  T2Scholaへのリンク  シラバス  シラバスへのリンク授業の内容       LX01: What is VIS?         LX02: What is VIS? / Introduction to Visual Analytics by an Example         LX03: Getting started with Pandas         LX04: Data Abstraction         LX05: Task Abstraction   ","categories": [],
         "tags": [],
         "url": "/classes/y21/vis.html"
       },{

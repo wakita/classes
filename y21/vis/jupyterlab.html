@@ -224,6 +224,43 @@
 
 <p>これを実行すると、シェルのプロンプトに <code class="language-plaintext highlighter-rouge">(vis21)</code> が表示されるようになります。</p>
 
+<h1 id="jupyter-lab-の起動方法">Jupyter Lab の起動方法</h1>
+
+<p>Jupyter Lab はウェブブラウザ上に実装された Python の統合開発環境です。Python の仮想環境を起動したあとで、以下のコマンドを実行すれば Jupyter Lab が起動します。</p>
+
+<p><code class="language-plaintext highlighter-rouge">jupyter lab</code></p>
+
+<p>うまくいかない場合は以下を参考にして下さい。</p>
+
+<ul>
+  <li>
+    <p>Jupyter Lab は一部のブラウザで動作しません。<a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html#supported-browsers">サポートされているブラウザについての情報</a>を参考にして下さい。</p>
+
+    <p>Jupyter Lab がサポートしていないソフトウェアを標準ウェブブラウザに指定している場合には、そのブラウザが起動してしまいます。Jupyter Lab の画面が表示されたら、</p>
+
+    <ol>
+      <li>
+        <p>まず、起動してしまった標準ブラウザと Jupyter Lab のサーバとの接続を遮断して下さい。Jupyter Lab のメニューから <strong>File</strong>メニュー &gt; <strong>Log out</strong> です。Jupyter Lab のノートブックに複数の接続はサポートされていないので、利用しない接続を遮断することは重要です。</p>
+      </li>
+      <li>
+        <p>Jupyter Lab 起動時のログに、サーバへアクセスするための URL が出力されているはずです。この URL を Jupyter Lab がサポートしているウェブブラウザで開いて下さい。</p>
+
+        <p>以下がアクセス情報の例です。ここに書かれている指示にしたがって URL をブラウザにペーストすれば開けると思います。</p>
+
+        <p><img src="https://i.gyazo.com/3eb1f85f654cd75a58488325e8e51ad9.png" alt="" /></p>
+      </li>
+    </ol>
+  </li>
+</ul>
+
+<h1 id="他人からもらったノートブックを-jupyter-lab-で開く前に">他人からもらったノートブックを Jupyter Lab で開く前に</h1>
+
+<p>自分以外の人が作成した Jupyter Notebook をうまく実行できないことがあります。これは Jupyter のセキュリティ機構がノートブックの実行を制限しているためです。</p>
+
+<p>インターネットからダウンロードされたり、他人から共有されたノートブックは、入手した時点では<strong>信頼されていません</strong>。信頼されていないノートブックを Jupyter Lab で開いて閲覧することはできますし、一部のコードの実行も可能です。しかし、OSに対する入出力は制限されているため、本来の動作と異なることがあります。</p>
+
+<p>入手したノートブックの制限のない環境で実行したい場合には、<code class="language-plaintext highlighter-rouge">jupyter trust [ノートブック].ipynb</code> のような感じにコマンドを用いて、そのノートブックを<strong>信頼されたノートブック</strong>に変換します。ここで<code class="language-plaintext highlighter-rouge">[ノートブック].ipynb</code>は信頼するノートブックのファイル名です。ノートブックを信頼する作業は、通常のコマンドラインからも、Jupyter Lab 内のターミナル環境からも実行可能です。</p>
+
 <h1 id="bokeh-documentation-への導き">Bokeh Documentation への導き</h1>
 
 <ul>

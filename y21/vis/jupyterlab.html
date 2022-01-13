@@ -240,7 +240,7 @@
 
     <ol>
       <li>
-        <p>まず、起動してしまった標準ブラウザと Jupyter Lab のサーバとの接続を遮断して下さい。Jupyter Lab のメニューから <strong>File</strong>メニュー &gt; <strong>Log out</strong> です。Jupyter Lab のノートブックに複数の接続はサポートされていないので、利用しない接続を遮断することは重要です。</p>
+        <p>まず、起動してしまった標準ブラウザと Jupyter Lab のサーバとの接続を遮断して下さい。Jupyter Lab のメニューから <strong>File</strong> メニュー &gt; <strong>Log out</strong> です。Jupyter Lab のノートブックに複数の接続はサポートされていないので、利用しない接続を遮断することは重要です。</p>
       </li>
       <li>
         <p>Jupyter Lab 起動時のログに、サーバへアクセスするための URL が出力されているはずです。この URL を Jupyter Lab がサポートしているウェブブラウザで開いて下さい。</p>
@@ -259,7 +259,12 @@
 
 <p>インターネットからダウンロードされたり、他人から共有されたノートブックは、入手した時点では<strong>信頼されていません</strong>。信頼されていないノートブックを Jupyter Lab で開いて閲覧することはできますし、一部のコードの実行も可能です。しかし、OSに対する入出力は制限されているため、本来の動作と異なることがあります。</p>
 
-<p>入手したノートブックの制限のない環境で実行したい場合には、<code class="language-plaintext highlighter-rouge">jupyter trust [ノートブック].ipynb</code> のような感じにコマンドを用いて、そのノートブックを<strong>信頼されたノートブック</strong>に変換します。ここで<code class="language-plaintext highlighter-rouge">[ノートブック].ipynb</code>は信頼するノートブックのファイル名です。ノートブックを信頼する作業は、通常のコマンドラインからも、Jupyter Lab 内のターミナル環境からも実行可能です。</p>
+<p>入手したノートブックの制限のない環境で実行したい場合には、以下のようにコマンドを用いて、そのノートブックを<strong>信頼されたノートブック</strong>に変換します。</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter trust <span class="o">[</span>ノートブック].ipynb
+</code></pre></div></div>
+
+<p>ここで<code class="language-plaintext highlighter-rouge">[ノートブック].ipynb</code>は信頼するノートブックのファイル名です。ノートブックを信頼する作業は、通常のコマンドラインからも、Jupyter Lab 内のターミナル環境からも実行可能です。</p>
 
 <h1 id="bokeh-documentation-への導き">Bokeh Documentation への導き</h1>
 

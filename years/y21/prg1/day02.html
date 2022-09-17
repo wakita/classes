@@ -15,9 +15,9 @@
   <link rel="icon" type="image/png" href="/classes/assets/favicons/icon-192x192.png">
 
   
-    <title>プログラミング第一</title>
-    <meta name="description" content="MCS.T224 2021年度 3Q プログラミング第一 担当教員 脇田 建・叢 悠悠 授業の形式 講義 / 演習 - 3単位; 月曜 – W641，火曜・金曜 W631 使用言語 日本語 T2Schola T2Scholaへのリンク シラバス シラバスへのリンク">
-    <link rel="canonical" href="/classes/y21/prg1.html">
+    <title>Day 2: 状態とその表現</title>
+    <meta name="description" content="担当科目（脇田 建）">
+    <link rel="canonical" href="/classes/years/y21/prg1/day02.html">
   
 
   <script>
@@ -39,7 +39,7 @@
 </head>
 
 
-  <body class="layout--page プログラミング第一">
+  <body class="layout--page day-2-状態とその表現">
 
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
@@ -148,7 +148,7 @@
 
   <div class="inner">
     <div class="intro-text">
-      <h1 id="page-title" class="intro-title">プログラミング第一
+      <h1 id="page-title" class="intro-title">Day 2: 状態とその表現
 </h1>
       
 
@@ -157,7 +157,7 @@
 
 
         <p class="entry-meta">
-          <span class="byline-item">by 脇田 建：情報理工学院 数理・計算科学系 准教授</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2022-09-17T23:43:18+09:00">September 17, 2022</time></span>
+          <span class="byline-item">by 脇田 建：情報理工学院 数理・計算科学系 准教授</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2021-10-08T00:00:00+09:00">October 8, 2021</time></span>
         </p>
       
 
@@ -173,55 +173,32 @@
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
-        <style>
-.entry-title {
-background-color: #ddd;
-}
-</style>
-
-<h1 id="mcst224">MCS.T224</h1>
-<p>2021年度 3Q プログラミング第一</p>
-
-<dl>
-  <dt>担当教員</dt>
-  <dd>脇田 建・叢 悠悠</dd>
-  <dt>授業の形式</dt>
-  <dd>講義 / 演習 - 3単位; 月曜 – W641，火曜・金曜 W631</dd>
-  <dt>使用言語</dt>
-  <dd>日本語</dd>
-  <dt>T2Schola</dt>
-  <dd><a href="https://t2schola.titech.ac.jp/course/view.php?id=14955">T2Scholaへのリンク</a></dd>
-  <dt>シラバス</dt>
-  <dd><a href="http://www.ocw.titech.ac.jp/index.php?module=General&amp;action=T0300&amp;GakubuCD=4&amp;GakkaCD=342200&amp;KeiCD=22&amp;KougiCD=202102384&amp;Nendo=2021&amp;vid=03" target="_blank">シラバスへのリンク</a></dd>
-  <dt>TA（3名）</dt>
-  <dd>池守和槻 / 谷口力斗 / 古殿直也 いずれも増原研(M1)の猛者揃い</dd>
-</dl>
-
-<hr />
-<h2 id="講義の内容">講義の内容</h2>
-
+        
 <ul>
   <li>
-    <p><a href="/classes/years/y21/prg1/day01.html">Day 1: 本当の Scala プロジェクト；本当の Scala 開発</a></p>
+    <p><a href="https://www.dropbox.com/s/r61ovoifbmjsjm1/lx02.pdf?dl=0">講義資料</a></p>
   </li>
   <li>
-    <p><a href="/classes/years/y21/prg1/day02.html">Day 2: 状態とその表現</a></p>
+    <p><a href="https://github.com/prg1-2021/lx02">サンプルプログラム</a></p>
   </li>
   <li>
-    <p><a href="/classes/years/y21/prg1/day03.html">Day 3: 例外処理</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/years/y21/prg1/day04.html">Day 4: 落穂拾い</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/years/y21/prg1/day05.html">Day 5: 高階関数</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/years/y21/prg1/day06.html"></a></p>
+    <p><a href="https://forms.gle/EvoEYJYVqNunaT5z7">課題</a></p>
   </li>
 </ul>
 
-<p>※ 演習の資料とビデオは別途配布します。T2SCHOLA か Slack を確認して下さい。</p>
+<h1 id="今日の内容">今日の内容</h1>
+
+<ul>
+  <li>
+    <p>状態って何？</p>
+  </li>
+  <li>
+    <p>状態と状態遷移のモデル化</p>
+  </li>
+  <li>
+    <p>状態遷移の実現方法</p>
+  </li>
+</ul>
 
       </div>
     </article>

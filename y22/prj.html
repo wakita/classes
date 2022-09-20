@@ -15,9 +15,9 @@
   <link rel="icon" type="image/png" href="/classes/assets/favicons/icon-192x192.png">
 
   
-    <title>プログラミング第一</title>
-    <meta name="description" content="MCS.T224 2021年度 3Q プログラミング第一 担当教員 脇田 建・叢 悠悠 授業の形式 講義 / 演習 - 3単位; 月曜 – W641，火曜・金曜 W631 使用言語 日本語 T2Schola T2Scholaへのリンク シラバス シラバスへのリンク">
-    <link rel="canonical" href="/classes/y21/prg1.html">
+    <title>研究プロジェクト</title>
+    <meta name="description" content="— 2022年度 34Q 研究プロジェクト 担当教員 脇田　建 授業の形式 実習 - 2.0単位; 対面 使用言語 日本語 T2Schola T2Scholaへのリンク シラバス シラバスへのリンク">
+    <link rel="canonical" href="/classes/y22/prj.html">
   
 
   <script>
@@ -39,7 +39,7 @@
 </head>
 
 
-  <body class="layout--page プログラミング第一">
+  <body class="layout--page 研究プロジェクト">
 
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
@@ -148,7 +148,7 @@
 
   <div class="inner">
     <div class="intro-text">
-      <h1 id="page-title" class="intro-title">プログラミング第一
+      <h1 id="page-title" class="intro-title">研究プロジェクト
 </h1>
       
 
@@ -179,49 +179,92 @@ background-color: #ddd;
 }
 </style>
 
-<h1 id="mcst224">MCS.T224</h1>
-<p>2021年度 3Q プログラミング第一</p>
+<h1>—</h1>
+<p>2022年度 34Q 研究プロジェクト</p>
 
 <dl>
   <dt>担当教員</dt>
-  <dd>脇田 建・叢 悠悠</dd>
+  <dd>脇田　建</dd>
   <dt>授業の形式</dt>
-  <dd>講義 / 演習 - 3単位; 月曜 – W641，火曜・金曜 W631</dd>
+  <dd>実習 - 2.0単位; 対面</dd>
   <dt>使用言語</dt>
   <dd>日本語</dd>
   <dt>T2Schola</dt>
-  <dd><a href="https://t2schola.titech.ac.jp/course/view.php?id=14955">T2Scholaへのリンク</a></dd>
+  <dd><a href="">T2Scholaへのリンク</a></dd>
   <dt>シラバス</dt>
-  <dd><a href="http://www.ocw.titech.ac.jp/index.php?module=General&amp;action=T0300&amp;GakubuCD=4&amp;GakkaCD=342200&amp;KeiCD=22&amp;KougiCD=202102384&amp;Nendo=2021&amp;vid=03" target="_blank">シラバスへのリンク</a></dd>
-  <dt>TA（3名）</dt>
-  <dd>池守和槻 / 谷口力斗 / 古殿直也 いずれも増原研(M1)の猛者揃い</dd>
+  <dd><a href="" target="_blank">シラバスへのリンク</a></dd>
 </dl>
-
-<hr />
-<h2 id="講義の内容">講義の内容</h2>
 
 <ul>
   <li>
-    <p><a href="/classes/years/y21/prg1/day01.html">Day 1: 本当の Scala プロジェクト；本当の Scala 開発</a></p>
+    <p><a href="/classes/prj/term2/">第二ラウンド</a></p>
   </li>
   <li>
-    <p><a href="/classes/years/y21/prg1/day02.html">Day 2: 状態とその表現</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/years/y21/prg1/day03.html">Day 3: 例外処理</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/years/y21/prg1/day04.html">Day 4: 落穂拾い</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/years/y21/prg1/day05.html">Day 5: 高階関数</a></p>
-  </li>
-  <li>
-    <p><a href="/classes/years/y21/prg1/day06.html"></a></p>
+    <p><a href="/classes/prj/term2/">第三ラウンド</a></p>
   </li>
 </ul>
 
-<p>※ 演習の資料とビデオは別途配布します。T2SCHOLA か Slack を確認して下さい。</p>
+<hr />
+
+<h1 id="python-関連の開発環境設定">Python 関連の開発環境設定</h1>
+
+<p>Python を用いた開発では、仮想環境を作成して、そのなかで開発することが普通です。仮想環境はプロジェクトごとに作成します。以下では、研究プロジェクトの三つのラウンドに共通する仮想環境の構築方法を説明しています。</p>
+
+<p>仮想環境は <code class="language-plaintext highlighter-rouge">labproject</code> と命名し、<code class="language-plaintext highlighter-rouge">~/.venvs/labproject</code> に設定してあります。Python の仮想環境は過去に複数のものがありました。<code class="language-plaintext highlighter-rouge">pyenv</code>, <code class="language-plaintext highlighter-rouge">virtualenv</code> などが知られています。これらは Python を拡張するシステムとして開発されましたが、Python 3.7 になって Python に標準的に備わった仮想システムが提供されるようになりました。これが <code class="language-plaintext highlighter-rouge">venv</code> です。以下では <code class="language-plaintext highlighter-rouge">venv</code> を用いた仮想環境を使った環境設定について説明します。</p>
+
+<ol>
+  <li>
+    <p>Python 3 をインストールすること。インストールされている Python のバージョンの確認は <code class="language-plaintext highlighter-rouge">python3 --version</code>。</p>
+
+    <p>macOS の場合は <code class="language-plaintext highlighter-rouge">brew install python3</code>。Windows の場合は <code class="language-plaintext highlighter-rouge">python.org</code> からダウンロードしてインストール。</p>
+  </li>
+  <li>
+    <p>Python の仮想環境 (<code class="language-plaintext highlighter-rouge">labproject</code>) の作成</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">mkdir ~/.venvs</code></li>
+      <li><code class="language-plaintext highlighter-rouge">python3 -m venv ~/.venvs/labproject</code></li>
+    </ul>
+  </li>
+  <li>
+    <p>作成した仮想環境 (<code class="language-plaintext highlighter-rouge">labproject</code>) の起動</p>
+
+    <p><code class="language-plaintext highlighter-rouge">source ~/.venvs/labproject/bin/activate</code></p>
+  </li>
+  <li>
+    <p>仮想環境 (<code class="language-plaintext highlighter-rouge">labproject</code>) への各種パッケージのインストール</p>
+
+    <p><code class="language-plaintext highlighter-rouge">pip install --upgrade pip bokeh networkx pandas scikit-learn scipy</code></p>
+  </li>
+</ol>
+
+<h1 id="python-の仮想環境の起動方法">Python の仮想環境の起動方法</h1>
+
+<p><code class="language-plaintext highlighter-rouge">source ~/.venvs/labproject/bin/activate</code></p>
+
+<p>これを実行すると、シェルのプロンプトに <code class="language-plaintext highlighter-rouge">(labproject)</code> が表示されるようになります。</p>
+
+<h1 id="bokeh-documentation-への導き">Bokeh Documentation への導き</h1>
+
+<ul>
+  <li><a href="https://docs.bokeh.org/en/latest/docs/user_guide/plotting.html">Plotting with basic glyphs</a></li>
+  <li><a href="https://docs.bokeh.org/en/latest/docs/user_guide/data.html">Providing data</a></li>
+  <li>
+    <p>Making Interactions &gt; <a href="https://docs.bokeh.org/en/latest/docs/user_guide/interaction/widgets.html">Adding widgets</a></p>
+  </li>
+  <li>
+    <p><a href="https://docs.bokeh.org/en/latest/docs/user_guide/server.html">Running a Bokeh server</a></p>
+
+    <p><code class="language-plaintext highlighter-rouge">bokeh</code> コマンドを使った本格的なアプリを作るには以下の Directory format が参考になります。Single module format は単純ですが、中途半端。</p>
+    <ul>
+      <li><a href="https://docs.bokeh.org/en/latest/docs/user_guide/server.html#building-bokeh-applications">Building Bokeh applications</a>
+        <ul>
+          <li><a href="https://docs.bokeh.org/en/latest/docs/user_guide/server.html#directory-format">Directory format</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
       </div>
     </article>
